@@ -1,0 +1,23 @@
+<Alloy>
+	<TabGroup backgroundColor="white" >
+            <Tab id="tab1" title="Mis Sonidos">
+                <Window class="container">
+					<TableView id="table" backgroundColor="#02026B">
+						<TableViewRow title="ahh haaa!!" onClick="doClickAh" height="50"></TableViewRow>
+						<TableViewRow title="Así no mas po!" onClick="doClickAsiNoMasPo" height="50"></TableViewRow>
+						<TableViewRow title="Estupido!" onClick="doClickEstupido" height="50"></TableViewRow>
+						<TableViewRow title="Homero Cerveza" onClick="doClickHomeroCerveza" height="50"></TableViewRow>
+						<TableViewRow title="Homero Lisa" onClick="doClickHomeroLisa" height="50"></TableViewRow>
+						<TableViewRow title="Risa Malvada" onClick="doClickRisaMala" height="50"></TableViewRow>
+						<TableViewRow title="Grito" onClick="doClickGrito" height="50"></TableViewRow>
+			        </TableView>
+				</Window>
+            </Tab>
+            <Tab id="tab2" title="Galería">
+                <Window id="win2" title="Tab 2">
+                    <Label id="label2" color="#999">Carga de sonidos de Galería</Label>
+                </Window>
+            </Tab>
+        </TabGroup>
+	
+</Alloy>

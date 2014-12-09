@@ -1,0 +1,10 @@
+".container": {
+	backgroundColor:"black",
+	layout:"vertical"
+},
+".img-play": {
+	image: "img/playlogo.png",
+	width: "100px",
+	height: "100px"
+
+}
